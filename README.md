@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/teafor-me/teafor.me">
-    <img src="public/filepath.png" alt="teaforme logo" width="80" height="80">
+    <img src="public/icon.png" alt="teaforme icon" width="80" height="80">
   </a>
 
 <h3 align="center">teafor.me</h3>
