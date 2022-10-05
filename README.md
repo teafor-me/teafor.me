@@ -30,6 +30,8 @@
 
 ## Contact
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: public/screenshot.png
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
