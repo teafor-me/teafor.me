@@ -18,13 +18,58 @@
 
 [![screenshot of teafor.me][product-screenshot]](https://teafor.me/)
 
+teafor.me is...
+
 ### Built with
 
-[![Next][next.js]][next-url] [![React][react.js]][react-url] [![Firebase][firebase]][firebase-url] [![Node.js][node]][node-url] [![Puppeteer][puppeteer]][puppeteer-url] [![Google Cloud Platform][gcp]][gcp-url] [![Sass][sass]][sass-url] [![Framer Motion][framer]][framer-url]
+[![Typescript][typescript]][typescript-url] [![Next][next.js]][next-url] [![React][react.js]][react-url] [![Firebase][firebase]][firebase-url] [![Node.js][node]][node-url] [![Puppeteer][puppeteer]][puppeteer-url] [![Google Cloud Platform][gcp]][gcp-url] [![Sass][sass]][sass-url] [![Framer Motion][framer]][framer-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
+
+teafor.me was created for the tea community, and we’re always aiming to improve how it meets the community’s needs. Contributions by members of the community are encouraged!
+
+**Unfortunately, fully open-sourcing teafor.me is not possible for the time being.** It’s important to protect the intellectual property of the vendors with whom teafor.me is partnered. If made public, much of teafor.me’s code could enable bad actors to misuse data or intellectual property that should only be used with the express permission of vendors. In addition to the demo code in this repository, contributors may be given private access to certain parts of teafor.me‘s code to the extent required for their contribution. Furthermore, frontend contributions submitted via pull requests will be public.
+
+_Please note that contributions are subject to [teafor.me's terms of use](https://teafor.me/terms)._
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Help add a vendor to teafor.me
+_(If you are associated with a vendor and would like to request that your products be added to teafor.me, please contact copyright@teafor.me.)_
+
+Is there a premium tea vendor you’d like to see added to teafor.me? We’re always open to consider expanding teafor.me’s catalog.
+
+Start by opening an issue using the _Vendor Request_ template. 
+In order to maintain a high standard of quality and trustworthiness on teafor.me, vendor requests need to be accompanied by proof of community support and must receive admin approval before being processed.
+Once a requested vendor is approved, please email the vendor to ask for their permission to display their products on teafor.me and CC copyright@teafor.me. You are welcome to use the email template in this repository to do so. Once permission is granted, you can start working to integrate the vendor’s products. The process depends on the type of online shop the vendor has:
+- For vendors using Shopify, no additional steps are required on your part.
+- For vendors using other e-commerce platforms, please contact teafor.me’s admin to determine what steps need to be taken depending on the specific platform.
+- For vendors not using any e-commerce platform, it may be necessary to use Puppeteer to scrape product data. See [placeholder] for an example and requirements.
+
+Due to intellectual property and privacy concerns, please **do not** submit code related to vendor requests via pull requests! Instead, push your code to a new repository. If you create a private repository (preferable), add @jhyahav as a collaborator. Otherwise, send a link to your repository to contribute@teafor.me.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Contribute to the frontend by creating a React component or a Next.js page
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Help with new features
+If you’d like to help add features (preferably ones you can help implement), you can open a Feature Request issue to suggest a new one. You can also offer your assistance in adding features suggested by other community members under the _help wanted_ tag.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Report and help solve bugs
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+#### If you are interested in contributing to teafor.me in a way that is not listed above, please contact contribute@teafor.me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -34,6 +79,8 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: public/screenshot.png
+[typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org/
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
