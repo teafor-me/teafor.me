@@ -55,6 +55,7 @@ Due to intellectual property and privacy concerns, please **do not** submit code
 ### Contribute to the frontend by creating a React component or a Next.js page
 
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -65,6 +66,8 @@ If you’d like to help add features (preferably ones you can help implement), y
 
 ### Report and help solve bugs
 
+If you encounter a bug or an error while using teafor.me, it would be very helpful if you could report it. You can do this by opening an issue using the _Bug Report_ template. Please provide as much information as you can.
+Additional input on unsolved bugs, be it adding information to existing reports or suggesting possible solutions, is also appreciated, as is your help with bugs tagged _help wanted_.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,6 +77,8 @@ If you’d like to help add features (preferably ones you can help implement), y
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
+
+Please see [teafor.me's contact page](https://teafor.me/contact) for general contact information. For inquiries related to contributions, please email contribute@teafor.me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
