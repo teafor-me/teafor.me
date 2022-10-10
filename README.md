@@ -20,6 +20,8 @@
 
 teafor.me makes browsing quality tea from your favorite vendors fun and effortless. Easily sort and filter products by whatever matters most to you, from type to vendor to price. Use the search to find exactly what you’re looking for, or shuffle the products to discover something new. teafor.me’s lightweight responsive user interface shows you everything you need to know about a product at a glance. With thousands of products from leading vendors and data updated daily, teafor.me streamlines exploring quality premium tea like never before.
 
+teafor.me is a non-commercial passion project developed and maintained for the benefit of the tea community. Its creation was motivated by a personal desire to make finding great tea simple, no matter your location, taste or budget by cooperating with highly reputable vendors of (mostly) unflavored tea from around the world.
+
 ### Built with
 
 [![Typescript][typescript]][typescript-url] [![Next][next.js]][next-url] [![React][react.js]][react-url] [![Firebase][firebase]][firebase-url] [![Node.js][node]][node-url] [![Puppeteer][puppeteer]][puppeteer-url] [![Google Cloud Platform][gcp]][gcp-url] [![Sass][sass]][sass-url] [![Framer Motion][framer]][framer-url]
