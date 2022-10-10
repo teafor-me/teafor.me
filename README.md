@@ -18,7 +18,7 @@
 
 [![screenshot of teafor.me][product-screenshot]](https://teafor.me/)
 
-teafor.me is...
+teafor.me makes browsing quality tea from your favorite vendors fun and effortless. Easily sort and filter products by whatever matters most to you, from type to vendor to price. Use the search to find exactly what you’re looking for, or shuffle the products to discover something new. teafor.me’s lightweight responsive user interface shows you everything you need to know about a product at a glance. With thousands of products from leading vendors and data updated daily, teafor.me streamlines exploring quality premium tea like never before.
 
 ### Built with
 
