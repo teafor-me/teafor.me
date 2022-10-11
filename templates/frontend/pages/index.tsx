@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <title>Contribute to teafor.me</title>
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>thanks for contributing to teafor.me!</h1>
+        <h1>thanks for contributing to teafor.me!</h1>
       </main>
     </>
   );

@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Compiled JavaScript files
+lib/**/*.js
+lib/**/*.js.map
+
+# log files
+*.log
