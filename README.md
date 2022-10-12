@@ -9,7 +9,7 @@
 <h3 align="center">teafor.me</h3>
 
   <p align="center">
-    your tea search engine
+    the new way to browse tea
   </p>
 </div>
 
@@ -17,7 +17,7 @@
 
 [![screenshot of teafor.me][product-screenshot]](https://teafor.me/)
 
-teafor.me makes browsing quality tea from your favorite vendors fun and effortless. Easily sort and filter products by whatever matters most to you, from type to vendor to price. Use the search to find exactly what you’re looking for, or shuffle the products to discover something new. teafor.me’s lightweight responsive user interface shows you everything you need to know about a product at a glance. With thousands of products from leading vendors and data updated daily, teafor.me streamlines exploring quality premium tea like never before.
+teafor.me makes browsing quality tea from your favorite vendors lightning fast, fun, and effortless. Easily sort and filter products by whatever matters most to you, from type to vendor to price. Use the search to find exactly what you’re looking for, or shuffle the products to discover something new. teafor.me’s lightweight responsive user interface shows you everything you need to know about a product at a glance, no matter what device you use. With thousands of products from leading vendors and data updated daily, teafor.me streamlines exploring quality premium tea like never before.
 
 **teafor.me is a non-commercial passion project developed and maintained for the benefit of the tea community. Its creation was motivated by a personal desire to make finding great tea simple, no matter your location, taste or budget by cooperating with highly reputable vendors of (mostly) unflavored tea from around the world.**
 
