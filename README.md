@@ -49,7 +49,7 @@ Once a requested vendor is approved, please email the vendor to ask for their pe
 
 - For vendors using **Shopify**, no additional steps are required on your part.
 - For vendors using **other e-commerce platforms** (such as BigCommerce, WooCommerce, or Spree Commerce), please contact teafor.me’s admin to determine what steps need to be taken depending on the specific platform.
-- For vendors **not using any e-commerce platform**, it may be necessary to use Puppeteer to scrape product data. You can find an example [here](/examples/vendor.ts). If it is decided that the data from the requested vendor needs to be scraped, please use [this template](/templates/backend/src/index.ts).
+- For vendors **not using any e-commerce platform**, it may be necessary to use Puppeteer to scrape product data. You can find an example [here](/templates/backend/src/example.ts). If it is decided that the data from the requested vendor needs to be scraped, please use [this template](/templates/backend/src/index.ts).
 
 Due to intellectual property and privacy concerns, please **do not** submit code related to vendor requests via pull requests! Instead, push your code to a new repository. If you create a private repository (preferable), add `@jhyahav` as a collaborator. Otherwise, send a link to your repository to contribute@teafor.me.
 

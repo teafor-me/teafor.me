@@ -1,4 +1,7 @@
-interface ProductData {
+import * as puppeteer from "puppeteer";
+import { Cluster } from "puppeteer-cluster";
+
+export interface ProductData {
   title: string;
   price: number; // in cents
   imgSrc: string;
@@ -33,6 +36,8 @@ interface ProductVariants {
  * @return {Promise<Array<ProductData>>} [insert vendor here] product data
  */
 export default async function scrape(): Promise<Array<ProductData>> {
-  // your code here
+  /*  (your code here)
+      before submitting your code, please test it to make sure it returns
+      the proper data and that it runs in less than 8 minutes with 1GB of RAM.*/
   return [];
 }
