@@ -1,10 +1,20 @@
 import * as puppeteer from "puppeteer";
 import { Cluster } from "puppeteer-cluster";
 import { ProductData } from ".";
+
+/*  
+    This code is provided as an example to help you write your scraping code,
+    but there's no one-size-fits-all approach here. If you need help, feel free
+    to reach out via email or GitHub.
+*/
+
 /**
- *
+ * add documentation here if necessary
+ * @returns {Promise<Array<ProductData>>} vendor product data
  */
-export default async function scrapeExampleVendor() {
+export default async function scrapeExampleVendor(): Promise<
+  Array<ProductData>
+> {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const urls = await getPageUrls(page);
@@ -13,8 +23,9 @@ export default async function scrapeExampleVendor() {
   return productData;
 }
 /**
- * @param  {puppeteer.Page} page
- * @returns Promise
+ * Goes through the vendor's site and retrieve the URL for each product.
+ * @param  {puppeteer.Page} page puppeteer page
+ * @returns {Promise<Array<string>>} list of product URLs
  */
 async function getPageUrls(page: puppeteer.Page): Promise<Array<string>> {
   const urls: Array<string> = [];
@@ -23,8 +34,9 @@ async function getPageUrls(page: puppeteer.Page): Promise<Array<string>> {
   return urls;
 }
 /**
+ * Navigates to each product page and scrapes their data one by one.
  * @param  {Array<string>} productUrls
- * @returns Promise
+ * @returns {Promise<Array<ProductData>>}
  */
 async function scrapeProductPages(
   productUrls: Array<string>
@@ -37,9 +49,8 @@ async function scrapeProductPages(
     timeout: 48000,
   });
   await cluster.task(async ({ page, data: url }) => {
-    // optional, but can significantly improve performance
+    // ignoring styling is optional, but can significantly improve performance
     await ignoreStyling(page);
-    console.log(`Awaiting: ${url}`);
     await page.goto(url);
     // add whichever selector you need for scraping the data
     await page.waitForSelector(".placeholder");
@@ -54,8 +65,9 @@ async function scrapeProductPages(
   return data;
 }
 /**
+ * Scrapes the product data from the page and return it as ProductData.
  * @param  {puppeteer.Page} page
- * @returns Promise
+ * @returns {Promise<ProductData>}
  */
 async function scrapePage(page: puppeteer.Page): Promise<ProductData> {
   const url = page.url();
@@ -81,6 +93,7 @@ async function scrapePage(page: puppeteer.Page): Promise<ProductData> {
  * @param  {puppeteer.Page} page
  */
 async function ignoreStyling(page: puppeteer.Page) {
+  // note that request interception might interfere with pagination in some cases
   await page.setRequestInterception(true);
   page.on("request", (req) => {
     if (
