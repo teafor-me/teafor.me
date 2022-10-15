@@ -92,7 +92,7 @@ Please see [teafor.me's contact page](https://teafor.me/contact) for general con
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[product-screenshot]: public/screenshot.png
+[product-screenshot]: public/screenshot.jpg
 [typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org/
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
