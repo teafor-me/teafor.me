@@ -1,0 +1,8 @@
+Dear [vendor],
+
+My name is [your name], and I’m reaching out to check if you’d be interested in having your products featured on teafor.me.
+teafor.me is a non-commercial web app developed and maintained by and for the tea community. It aggregates product data from leading vendors of quality premium tea from around the world and displays them in user-friendly feeds that make it fast, easy, and convenient to browse, filter, and search. You can try it out at https://teafor.me.
+I’m a big fan of your teas and would love to see them on teafor.me. If you are interested or if you have any questions, just reply to this email and make sure to CC copyright@teafor.me. It should be possible to integrate your products in a few steps requiring very little to no work at all on your part.
+
+Thanks,
+[your name]
